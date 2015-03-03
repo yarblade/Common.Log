@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ILog.log4net</id>
+    <version>1.0.0.0</version>
+    <title>ILog.log4net</title>
+    <authors>yarblade</authors>
+    <owners>yarblade</owners>
+    <licenseUrl>https://raw.githubusercontent.com/yarblade/ILog/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yarblade/ILog</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ILog adapter for log4net.</description>
+    <releaseNotes>Pre-release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>ILog log4net Log Logger Logging Simple</tags>
+  </metadata>
+</package>

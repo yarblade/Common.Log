@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ILog</id>
+    <version>1.0.0.0</version>
+    <title>ILog</title>
+    <authors>yarblade</authors>
+    <owners>yarblade</owners>
+    <licenseUrl>https://raw.githubusercontent.com/yarblade/ILog/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yarblade/ILog</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple interface for logging.</description>
+    <releaseNotes>Pre-release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>ILog Log Logger Logging Simple</tags>
+  </metadata>
+</package>
