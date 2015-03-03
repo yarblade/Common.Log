@@ -1,5 +1,5 @@
-# ILog
-ILog is a simple interface for logging.
+# Common.Log
+Common.Log contains a simple interface ILog for logging.
 ```C#
 public interface ILog
 {
@@ -20,5 +20,5 @@ public interface ILog
 }
 ```
 
-# ILog.log4net
-ILog adapter for log4net.
+# Common.Log.log4net
+Common.Log.log4net contains Common.Log adapter for log4net.
