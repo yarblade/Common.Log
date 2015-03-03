@@ -21,4 +21,4 @@ public interface ILog
 ```
 
 # ILog.log4net
-Ilog adapter for log4net.
+ILog adapter for log4net.
