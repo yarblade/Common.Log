@@ -1,6 +1,8 @@
 ﻿using System;
 
-namespace ILog
+
+
+namespace Common.Log
 {
 	public class LogAggregator : ILog
 	{

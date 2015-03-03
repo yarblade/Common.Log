@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Common.Log.log4net</id>
+    <version>1.0.0.0</version>
+    <title>Common.Log.log4net</title>
+    <authors>yarblade</authors>
+    <owners>yarblade</owners>
+    <licenseUrl>https://raw.githubusercontent.com/yarblade/Common.Log/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yarblade/Common.Log</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common.Log adapter for log4net.</description>
+    <releaseNotes>Pre-release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Common.Log log4net Log Logger Logging Simple</tags>
+  </metadata>
+</package>

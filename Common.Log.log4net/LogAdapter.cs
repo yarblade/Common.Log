@@ -1,6 +1,6 @@
-﻿namespace ILog.log4net
+﻿namespace Common.Log.log4net
 {
-	public class LogAdapter : ILog
+	public class LogAdapter : Common.Log.ILog
 	{
 		private readonly global::log4net.ILog _log;
 

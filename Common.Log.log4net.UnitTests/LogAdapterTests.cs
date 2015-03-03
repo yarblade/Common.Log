@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Linq.Expressions;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using Moq;
+
 using Ploeh.AutoFixture;
 
-namespace ILog.log4net.UnitTests
+
+
+namespace Common.Log.log4net.UnitTests
 {
 	[TestClass]
 	public class LogAdapterTests

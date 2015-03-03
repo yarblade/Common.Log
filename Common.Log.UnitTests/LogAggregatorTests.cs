@@ -1,25 +1,30 @@
 ﻿using System;
 using System.Linq.Expressions;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 using Moq;
+
 using Ploeh.AutoFixture;
 
-namespace ILog.UnitTests
+
+
+namespace Common.Log.UnitTests
 {
 	[TestClass]
 	public class LogAggregatorTests
 	{
 		private IFixture _fixture;
-		private Mock<ILog> _log1;
-		private Mock<ILog> _log2;
+		private Mock<Common.Log.ILog> _log1;
+		private Mock<Common.Log.ILog> _log2;
 		private LogAggregator _logAggregator;
 
 		[TestInitialize]
 		public void TestInit()
 		{
 			_fixture = new Fixture();
-			_log1 = new Mock<ILog>(MockBehavior.Strict);
-			_log2 = new Mock<ILog>(MockBehavior.Strict);
+			_log1 = new Mock<Common.Log.ILog>(MockBehavior.Strict);
+			_log2 = new Mock<Common.Log.ILog>(MockBehavior.Strict);
 
 			_logAggregator = new LogAggregator(new[] {_log1.Object, _log2.Object});
 		}
@@ -69,7 +74,7 @@ namespace ILog.UnitTests
 			TestImpl(x => x.Fatal(message, _log1, _log2, _logAggregator, _fixture));
 		}
 
-		private void TestImpl(Expression<Action<ILog>> expression)
+		private void TestImpl(Expression<Action<Common.Log.ILog>> expression)
 		{
 			_log1.Setup(expression);
 			_log2.Setup(expression);

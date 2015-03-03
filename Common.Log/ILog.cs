@@ -1,6 +1,8 @@
 ﻿using JetBrains.Annotations;
 
-namespace ILog
+
+
+namespace Common.Log
 {
     public interface ILog
     {

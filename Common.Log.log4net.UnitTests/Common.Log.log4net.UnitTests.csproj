@@ -6,8 +6,8 @@
     <ProjectGuid>{10E30447-4EF4-4FA8-AC47-EBE7C917964B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ILog.log4net.UnitTests</RootNamespace>
-    <AssemblyName>ILog.log4net.UnitTests</AssemblyName>
+    <RootNamespace>Common.Log.log4net.UnitTests</RootNamespace>
+    <AssemblyName>Common.Log.log4net.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -75,11 +75,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ILog.log4net\ILog.log4net.csproj">
+    <ProjectReference Include="..\Common.Log.log4net\Common.Log.log4net.csproj">
       <Project>{63670101-d338-46fe-9b54-1ebaa446c877}</Project>
       <Name>ILog.log4net</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ILog\ILog.csproj">
+    <ProjectReference Include="..\Common.Log\Common.Log.csproj">
       <Project>{0a40c4e1-791b-4ce5-8f3c-97277497c5d1}</Project>
       <Name>ILog</Name>
     </ProjectReference>
